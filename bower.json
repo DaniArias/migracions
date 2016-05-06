@@ -1,0 +1,10 @@
+{
+  "name": "M8Examen-jvallejo",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
