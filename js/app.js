@@ -17,3 +17,13 @@ $(function(){
 
       });
 });
+
+$('.boton-top').click(function(){
+    $('body,html').animate({scrollTop : 0}, 500);
+    return false;
+});
+
+function mostrar(enla) {
+obj = document.getElementById('oculto'+enla);
+obj.style.visibility = (obj.style.visibility == 'hidden') ? 'visible' : 'hidden';
+}

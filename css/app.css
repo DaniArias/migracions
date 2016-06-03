@@ -1,14 +1,49 @@
+* {
+    font-family: "Roboto" ,sans-serif !important;
+    font-weight: 400;
+}
+
 body{
-    background: #FFFFFF;
+    background-image: url("../img/fondo.png");
+}
+
+img {
+border: 2px solid grey;
+margin: 0;
+padding: 0;
+border-radius: 50%;
+overflow: hidden;
 }
 
 .imagen {
-     background-image: url("img/grupo.jpg");
+     background-image: url("../img/3a.png");
+     background-size: cover;
+     background-repeat: no-repeat;
+     width: 100%;
+     height: 600px;
+     text-align: center;
+}
+
+.top1 {
+    padding-top: 100px;
 }
 
 .centro {
   text-align: center;
 }
+
+.letra3r {
+    color: #FA2A00;
+    font-size: 100px;
+}
+.padding {
+  padding-left: 80px;
+}
+
+.paddingbottom {
+  padding-bottom: 20px;
+}
+
 #container-main{
     margin:20px auto;
     width:95%;
@@ -18,7 +53,6 @@ body{
 
 #container-main h1{
     font-size: 40px;
-    text-shadow:4px 4px 5px #8F37AD;
 }
 
 .accordion-container {
@@ -33,18 +67,18 @@ body{
     padding: 20px;
     font-size: 24px;
     font-weight: 300;
-    background: #EDBEF4
+    background: #86B8B1;
 ;
-    color: #fff;
+    color: #000;
     text-decoration: none;
 }
 .accordion-titulo.open {
-    background: #C39F66;
-    color: #fff;
+    background: #86B8B1;
+    color: #000;
 }
 .accordion-titulo:hover {
-    background: #D1C87B;
-    color: #fff;
+    background: #75A59F;
+    color: #000;
 }
 
 .accordion-titulo span.toggle-icon:before {
@@ -74,9 +108,6 @@ body{
 }
 
 .accordion-content img {
-    display: block;
-    float: left;
-    margin: 0 15px 10px 0;
     width: 50%;
     height: auto;
 }

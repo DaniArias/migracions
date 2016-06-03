@@ -526,12 +526,12 @@ h6 {
     font-size: 1rem; } }
 
 a {
-  color: #2ba6cb;
+  color: #000;
   text-decoration: none;
   line-height: inherit;
   cursor: pointer; }
   a:hover, a:focus {
-    color: #258faf; }
+    color: #1A1A1A; }
   a img {
     border: 0; }
 
@@ -1185,7 +1185,7 @@ select {
     cursor: not-allowed; }
   .button.dropdown::after {
     content: '';
-    display: block;
+    display: ;
     width: 0;
     height: 0;
     border: inset 0.4em;
@@ -1766,7 +1766,7 @@ select {
 
 .dropdown.menu > li.is-dropdown-submenu-parent > a::after {
   content: '';
-  display: block;
+  display: none;
   width: 0;
   height: 0;
   border: inset 5px;
@@ -2054,7 +2054,7 @@ select {
           flex-wrap: wrap; }
   .top-bar,
   .top-bar ul {
-    background-color: #e6e6e6; }
+    background-color: #86B8B1; }
   .top-bar input {
     max-width: 200px;
     margin-right: 1rem; }
