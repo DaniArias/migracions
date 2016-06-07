@@ -1,26 +1,19 @@
 *{font-family: 'Roboto', sans-serif;
 }
-
-
 $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
-
 // bower:scss
 @import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
 // endbower
-
 .browsehappy {
   margin: 0.2em 0;
   background: #ccc;
   color: #000;
   padding: 0.2em 0;
 }
-
 /* Space out content a bit */
 body {
   padding-top: 20px;
-
 }
-
 /* Everything but the jumbotron gets side spacing for mobile first views */
 .header,
 .marketing,
@@ -28,11 +21,9 @@ body {
   padding-left: 15px;
   padding-right: 15px;
 }
-
 /* Custom page header */
 .header {
   border-bottom: 1px solid #e5e5e5;
-
   /* Make the masthead heading the same height as the navigation */
   h3 {
     margin-top: 0;
@@ -41,18 +32,15 @@ body {
     padding-bottom: 19px;
   }
 }
-
 /* Custom page footer */
 .footer {
   padding-top: 19px;
   color: #777;
   border-top: 1px solid #e5e5e5;
 }
-
 .container-narrow > hr {
   margin: 30px 0;
 }
-
 /* Main marketing message and sign up button */
 .jumbotron {
   text-align: center;
@@ -62,7 +50,6 @@ body {
     padding: 14px 24px;
   }
 }
-
 /* Supporting marketing content */
 .marketing {
   margin: 40px 0;
@@ -70,13 +57,11 @@ body {
     margin-top: 28px;
   }
 }
-
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
   .container {
     max-width: 730px;
   }
-
   /* Remove the padding we set earlier */
   .header,
   .marketing,
@@ -976,6 +961,7 @@ margin-top: 15px;
 .textodidac{
   font-size: 12px;
   margin-left: 25px;
+  text-align: justify;
 }
 
 .nombreraquel{
@@ -987,18 +973,16 @@ margin-top: 15px;
   font-size: 12px;
   margin-left: 220px;
   width: 250px;
+  text-align: justify;
 }
 
 .nombrenada{
   margin-left: 120px;
-
-
 }
-
 .textonada{
   font-size: 12px;
   margin-left: 25px;
-
+  text-align: justify;
 }
 
 .carla{
@@ -1013,8 +997,6 @@ margin-top: 15px;
 .apartado{
   margin-left: 200px;
 }
-
-
 .nati{
   margin-left: 70px;
 }
@@ -1027,15 +1009,11 @@ margin-top: 15px;
   margin-left: 250px;
   width: 3000px;
 }
-
-
 .aparte{
   margin-top: 900px;
   margin-left: 100px;
 
 }
-
-
 .martafoto{
 width: 200px;
 height: 200px;
@@ -1051,9 +1029,7 @@ margin-left: 100px;
     rotation: 90deg;
     filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
     margin-left: 100px;
-
 }
-
 .alejandrofoto{
   width: 200px;
   height: 200px;
@@ -1078,8 +1054,6 @@ margin-left: 100px;
   border-radius: 50%;
   margin-left: 100px;
 }
-
-
 .fotoentrevistados{
   margin-left: 140px;
   margin-top: 100px;
@@ -1089,19 +1063,6 @@ margin-left: 100px;
   margin-top: 80px;
   margin-left: 140px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 .cssload-loaders {
 	width: 244px;
   margin-top: 0px;
@@ -1142,9 +1103,6 @@ margin-left: 100px;
 .cssload-loaders::after {
 	bottom: 0;
 }
-
-
-
 @keyframes cssload-loaders {
 	0% {
 		left: -20px;
@@ -1162,7 +1120,6 @@ margin-left: 100px;
 		width: 15px;
 	}
 }
-
 @-o-keyframes cssload-loaders {
 	0% {
 		left: 0;
@@ -1170,7 +1127,6 @@ margin-left: 100px;
 		width: 15px;
 	}
 	50% {
-
 		height: 8px;
 		width: 39px;
 	}
@@ -1180,7 +1136,6 @@ margin-left: 100px;
 		width: 15px;
 	}
 }
-
 @-ms-keyframes cssload-loaders {
 	0% {
 		left: 0;
@@ -1197,7 +1152,6 @@ margin-left: 100px;
 		width: 15px;
 	}
 }
-
 @-webkit-keyframes cssload-loaders {
 	0% {
 		left: 0;
@@ -1214,7 +1168,6 @@ margin-left: 100px;
 		width: 15px;
 	}
 }
-
 @-moz-keyframes cssload-loaders {
 	0% {
 		left: 0;
@@ -1231,51 +1184,31 @@ margin-left: 100px;
 		width: 15px;
 	}
 }
-
-
-
-
-
-
-
-
-
-
 .marta{
   width:240px;
   height: 230px;
   border-radius: 50%;
   margin-left: 110px;
   margin-top: 20px;
-
 }
 .nombremarta{
   margin-left: 90px;
     color: white;
     padding-top: 30px;
 }
-
 .textomarta{
   width:430px;
   margin-left: 70px;
   font-size: 14px;
   line-height: 26px;
-
+  text-align: justify;
   color: white;
-
 }
-
-
-
 .entremarta{
   background-color: #86B8B1;
 height: 680px;
   margin-top: 200px;
 }
-
-
-
-
 .juniad{
   width:240px;
   height: 230px;
@@ -1286,194 +1219,135 @@ height: 680px;
   	-moz-transform: rotate(90deg);
   	rotation: 90deg;
   	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
-
-
 }
-
 .nombrejuniad{
   padding-top: 44px;
   margin-left: 90px;
     color: white;
   margin-top: 60px;
 }
-
 .textojuniad{
   width:430px;
   margin-left: 70px;
   font-size: 14px;
   line-height: 30px;
-
+  text-align: justify;
   color: white;
-
 }
-
 .entrejunaid{
   background-color: #F2D694;
   margin-top: -100px;
   height: 680px;
 }
-
-
 .alejandro{
   width:240px;
   height: 230px;
   border-radius: 50%;
   margin-left: 110px;
   margin-top: 20px;
-
-
-
 }
-
-
-
-
-
-
 .nombrealejandro{
   padding-top: 44px;
   margin-left: 90px;
     color: white;
   margin-top: 60px;
 }
-
 .textoalejandro{
   width:430px;
   margin-left: 70px;
   font-size: 14px;
   line-height: 30px;
-
+  text-align: justify;
   color: white;
-
 }
-
-
-
 .entrealejandro{
   background-color: #86B8B1;
   height: 680px;
   margin-top: -60px;
 }
-
-
-
-
 .juan{
   width:240px;
   height: 230px;
   border-radius: 50%;
   margin-left: 110px;
   margin-top: 20px;
-
-
 }
-
 .nombrejuan{
   padding-top: 44px;
   margin-left: 90px;
     color: white;
   margin-top: 60px;
 }
-
 .textojuan{
   width:430px;
   margin-left: 70px;
   font-size: 14px;
   line-height: 30px;
-
+  text-align: justify;
   color: white;
-
 }
-
 .entrejuan{
   background-color: #F2D694;
   margin-top: -100px;
   height: 680px;
 }
-
-
-
-
 .sergio{
   width:240px;
   height: 230px;
   border-radius: 50%;
   margin-left: 110px;
   margin-top: 20px;
-
-
-
 }
-
 .nombresergio{
   padding-top: 44px;
   margin-left: 90px;
     color: white;
   margin-top: 60px;
 }
-
 .textosergio{
   width:430px;
   margin-left: 70px;
   font-size: 14px;
   line-height: 30px;
-
+  text-align: justify;
   color: white;
-
 }
-
-
-
 .entresergio{
   background-color: #86B8B1;
   height: 680px;
   margin-top: -60px;
 }
-
-
-
-
 .mamadou{
   width:240px;
   height: 230px;
   border-radius: 50%;
   margin-left: 110px;
   margin-top: 20px;
-
-
 }
-
 .nombremamadou{
   padding-top: 44px;
   margin-left: 90px;
     color: white;
   margin-top: 60px;
 }
-
 .textomamadou{
   width:430px;
   margin-left: 70px;
   font-size: 14px;
   line-height: 30px;
-
+  text-align: justify;
   color: white;
-
 }
-
 .entremamadou{
   background-color: #F2D694;
   margin-top: -100px;
   height: 680px;
 }
-
 .foter{
   background-color: #1C1C1C;
   height: 200px;
-
 }
-
-
-.textofoter{
+.textofooter{
   position: absolute;
   color:white;
   margin-left: 150px;
